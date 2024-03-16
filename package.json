@@ -2,19 +2,22 @@
   "name": "bluesight",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "format": "prettier --write .",
     "pre-commit": "lint-staged",
-    "prepare": "husky"
+    "prepare": "husky",
+    "start:mobile": "pnpm --filter @cyrilolanolan/bluesight start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "engines": {
     "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "eslint-import-resolver-typescript": "3.6.1"
   },
   "devDependencies": {
     "@commitlint/cli": "19.2.0",

@@ -4,3 +4,4 @@ dist
 pnpm-lock.yaml
 pnpm-workspace.yaml
 .eslintrc.js
+node_modules

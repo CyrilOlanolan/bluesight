@@ -1,9 +1,17 @@
 {
   "extends": ["expo/tsconfig.base", "../../tsconfig.json"],
   "compilerOptions": {
+    "baseUrl": ".",
     "strict": true,
     "paths": {
       "@/*": ["../../apps/mobile/*"]
     }
-  }
+  },
+  "include": ["."],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
 }

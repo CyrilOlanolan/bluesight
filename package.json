@@ -1,6 +1,6 @@
 {
   "name": "bluesight",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -8,11 +8,12 @@
     "format": "prettier --write .",
     "pre-commit": "lint-staged",
     "prepare": "husky",
-    "start:mobile": "pnpm --filter @cyrilolanolan/bluesight start"
+    "dev:api": "pnpm --filter @cyrilolanolan/bluesight-api start:dev",
+    "dev:mobile": "pnpm --filter @cyrilolanolan/bluesight start"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Cyril Olanolan",
+  "license": "MIT",
   "engines": {
     "node": ">=20.0.0"
   },

@@ -20,10 +20,17 @@ Coming soon.
 
 ## Running in Development
 
+### API
+
+1. Run the API server.
+   ```bash
+   pnpm dev:api
+   ```
+
 ### Mobile Version
 
 1. Run the command:
    ```bash
-   pnpm start:dev
+   pnpm dev:mobile
    ```
 2. Follow the instructions on the terminal.

@@ -1,0 +1,39 @@
+{
+  "name": "bluesight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "pre-commit": "lint-staged",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.2.0",
+    "@commitlint/config-conventional": "19.1.0",
+    "@cyrilolanolan/eslint-config-ts": "0.1.2",
+    "@cyrilolanolan/prettier-config": "0.1.2",
+    "eslint": "8.57.0",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.2",
+    "prettier": "3.2.5",
+    "typescript": "5.4.2"
+  },
+  "lint-staged": {
+    "{**/*,*}.{json,css,md}": [
+      "prettier --write"
+    ],
+    "{**/*,*}.{ts,tsx,js,jsx}": [
+      "eslint --fix --max-warnings=-1",
+      "prettier --write"
+    ]
+  }
+}

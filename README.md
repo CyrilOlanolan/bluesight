@@ -2,12 +2,13 @@
 
 Coming soon.
 
-## Requirements
+## 🚥 Requirements
 
-- Node Version 20 (or latest)
-- PNPM
+- [Node](https://nodejs.org/) - Version 20 (or latest)
+- [PNPM](https://pnpm.io/)
+- [Expo Go](https://expo.dev/go)
 
-## Installation
+## 🛠️ Installation
 
 1. Clone the repository.
    ```bash
@@ -18,19 +19,25 @@ Coming soon.
    pnpm install
    ```
 
-## Running in Development
+## ⚙️ Running in Development
 
-### API
+### 🔗 API
+
+To run the mobile application, you have to run the API server simultaneously.
 
 1. Run the API server.
    ```bash
    pnpm dev:api
    ```
 
-### Mobile Version
+### 📱 Mobile Version
 
 1. Run the command:
    ```bash
    pnpm dev:mobile
    ```
 2. Follow the instructions on the terminal.
+
+## ✨ Contributors
+
+To be added soon.

@@ -9,7 +9,8 @@
     "pre-commit": "lint-staged",
     "prepare": "husky",
     "dev:api": "pnpm --filter @cyrilolanolan/bluesight-api start:dev",
-    "dev:mobile": "pnpm --filter @cyrilolanolan/bluesight start"
+    "dev:mobile": "pnpm --filter @cyrilolanolan/bluesight start",
+    "dev:dto": "pnpm --filter @cyrilolanolan/bluesight-dto dev"
   },
   "keywords": [],
   "author": "Cyril Olanolan",

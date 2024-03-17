@@ -1,0 +1,26 @@
+{
+  "name": "@cyrilolanolan/bluesight-dto",
+  "version": "0.0.0",
+  "description": "Shared DTO library for BlueSight",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "author": "Cyril Olanolan",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@nestjs/swagger": "7.3.0"
+  },
+  "devDependencies": {
+    "typescript": "5.4.2"
+  }
+}

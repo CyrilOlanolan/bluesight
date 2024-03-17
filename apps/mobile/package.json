@@ -1,5 +1,5 @@
 {
-  "name": "@cyrilolanolan/bluesight",
+  "name": "bluesight-mobile",
   "version": "0.0.0",
   "main": "index.js",
   "author": "Cyril Olanolan",
@@ -20,7 +20,8 @@
   "devDependencies": {
     "@babel/core": "7.24.0",
     "@types/react": "18.2.45",
-    "typescript": "5.1.3"
+    "typescript": "5.1.3",
+    "@cyrilolanolan/bluesight-dto": "workspace:*"
   },
   "private": true
 }

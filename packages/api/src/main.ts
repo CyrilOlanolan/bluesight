@@ -1,8 +1,7 @@
-/* eslint-disable no-restricted-imports */
 import { NestFactory } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
-import { AppModule } from './app.module';
+import { AppModule } from '@/app.module';
 
 const SWAGGER_ENVS = ['development'];
 

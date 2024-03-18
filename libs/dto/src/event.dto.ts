@@ -1,7 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 
-// eslint-disable-next-line no-restricted-imports
-import type { ApiCreatedResponseType } from './common';
+import type { ApiCreatedResponseType } from '@/common';
 
 export class EventType {
   @ApiProperty({

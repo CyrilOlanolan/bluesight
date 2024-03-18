@@ -6,8 +6,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "dev": "tsc --watch"
+    "build": "tsc && tsc-alias",
+    "dev": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\""
   },
   "author": "Cyril Olanolan",
   "license": "MIT",
@@ -21,6 +21,8 @@
     "@nestjs/swagger": "7.3.0"
   },
   "devDependencies": {
+    "concurrently": "8.2.2",
+    "tsc-alias": "1.8.8",
     "typescript": "5.4.2"
   }
 }

@@ -1,6 +1,6 @@
 {
   "extends": ["../../tsconfig.json"],
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "index.ts"],
   "compilerOptions": {
     // Tells TypeScript to read JS files, as
     // normally they are ignored as source files
@@ -8,9 +8,13 @@
     // Generate d.ts files
     "declaration": true,
     // Types should go into this directory.
-    "outDir": "dist",
+    "outDir": "./dist",
     // Go to js file when using IDE functions like
     // "Go to Definition" in VSCode
-    "declarationMap": true
+    "declarationMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   }
 }

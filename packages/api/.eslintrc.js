@@ -8,11 +8,4 @@ module.exports = {
     // Some classes are erroneously inferred as type-only
     '@typescript-eslint/consistent-type-imports': 0,
   },
-  settings: {
-    'import/resolver': {
-      typescript: {
-        project: ['./src'],
-      },
-    },
-  },
 };

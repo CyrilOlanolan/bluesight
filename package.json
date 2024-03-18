@@ -40,5 +40,10 @@
       "eslint --fix --max-warnings=-1",
       "prettier --write"
     ]
+  },
+  "pnpm": {
+    "overrides": {
+      "semver": ">=7.5.2"
+    }
   }
 }

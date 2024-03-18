@@ -11,6 +11,7 @@
   },
   "author": "Cyril Olanolan",
   "license": "MIT",
+  "private": true,
   "exports": {
     ".": {
       "import": "./dist/index.js",

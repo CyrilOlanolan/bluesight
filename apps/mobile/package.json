@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Cyril Olanolan",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -22,6 +23,5 @@
     "@types/react": "18.2.45",
     "typescript": "5.1.3",
     "@cyrilolanolan/bluesight-dto": "workspace:*"
-  },
-  "private": true
+  }
 }

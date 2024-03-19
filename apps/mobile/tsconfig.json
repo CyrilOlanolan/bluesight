@@ -7,7 +7,7 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["."],
+  "include": ["src/**/*", "app/**/*"],
   "exclude": [
     "node_modules",
     "babel.config.js",

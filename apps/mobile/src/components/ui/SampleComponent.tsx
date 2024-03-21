@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 export default function SampleComponent() {
   return (
     <View>
-      <Text>Sample Component!</Text>
+      <Text className="text-red-500">Sample Component!</Text>
     </View>
   );
 }

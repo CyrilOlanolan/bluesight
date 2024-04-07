@@ -19,4 +19,7 @@ config.resolver.nodeModulesPaths = [
 
 config.resolver.unstable_enableSymlinks = true;
 
+// For Storybook
+config.transformer.unstable_allowRequireContext = true;
+
 module.exports = withNativeWind(config, { input: './src/styles/global.css' });

@@ -21,9 +21,6 @@ module.exports = {
       backgroundColor: '#ffffff',
     },
   },
-  web: {
-    favicon: './assets/favicon.png',
-  },
   plugins: ['expo-router'],
   extra: {
     storybookEnabled: process.env.STORYBOOK_ENABLED,

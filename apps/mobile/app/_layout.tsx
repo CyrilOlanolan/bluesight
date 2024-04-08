@@ -3,7 +3,6 @@ import { Slot } from 'expo-router';
 
 import '@/styles/global.css';
 
-// eslint-disable-next-line no-restricted-imports
 import StorybookUIRoot from '~/.storybook';
 
 let Exported = Slot;

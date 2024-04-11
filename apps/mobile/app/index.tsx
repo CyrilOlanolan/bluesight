@@ -6,7 +6,7 @@ import SampleComponent from '@/components/ui/SampleComponent';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View style={styles.container} className="">
       <Text>Open up App.tsx to start working on your app!</Text>
       <SampleComponent />
       <StatusBar style="auto" />

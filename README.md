@@ -38,6 +38,14 @@ To run the mobile application, you have to run the API server simultaneously.
    ```
 2. Follow the instructions on the terminal.
 
+### 📕 Storybook (Mobile)
+
+1. Run the command:
+   ```bash
+   pnpm dev:mobile-sb
+   ```
+2. Follow the instructions on the terminal.
+
 ## ✨ Contributors
 
 To be added soon.

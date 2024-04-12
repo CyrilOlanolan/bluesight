@@ -12,7 +12,8 @@
     "dev:mobile": "pnpm --filter bluesight-mobile start",
     "dev:dto": "pnpm --filter @cyrilolanolan/bluesight-dto dev",
     "build:api": "pnpm --filter bluesight-api build",
-    "build:dto": "pnpm --filter @cyrilolanolan/bluesight-dto build"
+    "build:dto": "pnpm --filter @cyrilolanolan/bluesight-dto build",
+    "dev:mobile-sb": "pnpm --filter bluesight-mobile storybook"
   },
   "keywords": [],
   "author": "Cyril Olanolan",

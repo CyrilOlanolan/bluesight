@@ -1,6 +1,6 @@
 import plugin from 'tailwindcss/plugin';
 
-import { fill } from './colors';
+import { fill, content, stroke } from './colors';
 
 export const BlueSightTheme = plugin(
   ({}) => {},
@@ -10,6 +10,8 @@ export const BlueSightTheme = plugin(
     theme: {
       colors: {
         fill,
+        content,
+        stroke,
       },
     },
   }

@@ -21,7 +21,7 @@ module.exports = {
       backgroundColor: '#ffffff',
     },
   },
-  plugins: ['expo-router'],
+  plugins: ['expo-router', 'expo-asset'],
   extra: {
     storybookEnabled: process.env.STORYBOOK_ENABLED,
   },

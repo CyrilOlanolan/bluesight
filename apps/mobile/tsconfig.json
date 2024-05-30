@@ -8,7 +8,7 @@
       "~/*": ["./*"]
     }
   },
-  "include": ["src/**/*", "app/**/*"],
+  "include": ["src/**/*", "app/**/*", ".storybook/**/*"],
   "exclude": [
     "node_modules",
     "babel.config.js",

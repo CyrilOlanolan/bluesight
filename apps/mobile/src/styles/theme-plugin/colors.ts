@@ -112,7 +112,7 @@ export const fill = {
   },
   action: {
     neutral: {
-      primary: semantic.gray[1],
+      default: semantic.gray[1],
     },
     primary: {
       default: semantic.brand[9],
@@ -150,7 +150,9 @@ export const content = {
   },
   action: {
     neutral: {
-      primary: semantic.foreground[9],
+      placeholder: semantic.foreground[9],
+      active: semantic.foreground[12],
+      default: semantic.foreground[12],
     },
     positive: {
       default: base.white,

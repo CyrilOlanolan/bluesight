@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && tsc-alias",
-    "dev": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\""
+    "dev": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
+    "prepare": "npm run build"
   },
   "author": "Cyril Olanolan",
   "license": "MIT",

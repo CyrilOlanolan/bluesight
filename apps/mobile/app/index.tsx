@@ -2,13 +2,13 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { StatusBar } from 'expo-status-bar';
 
-import SampleComponent from '@/components/ui/SampleComponent';
+import { TextInput } from '@/components/ui/TextInput';
 
 export default function App() {
   return (
     <View style={styles.container} className="">
       <Text>Open up App.tsx to start working on your app!</Text>
-      <SampleComponent />
+      <TextInput className="w-full flex grow" />
       <StatusBar style="auto" />
     </View>
   );

@@ -2,13 +2,14 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { StatusBar } from 'expo-status-bar';
 
-import SampleComponent from '@/components/ui/SampleComponent';
+import { Button } from '@/components/ui/Button';
 
 export default function App() {
   return (
-    <View style={styles.container} className="">
+    <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
-      <SampleComponent />
+      <Button variant="primary" className="w-full" text="Primary" />
+      <Button variant="negative" className="w-full" text="Negative" />
       <StatusBar style="auto" />
     </View>
   );
